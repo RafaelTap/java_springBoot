@@ -1,2 +1,2 @@
 # java_springBoot
-This repository is dedicated to my learns around Spring Boot and microservices development using Spring Boot framework, docker and kubernete.
+This repository is dedicated to my learning around Spring Boot and micro services development using Spring Boot framework, docker and kubernete.
