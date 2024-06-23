@@ -29,4 +29,37 @@ public class Accounts extends BaseEntity {
 	@Column(name = "branch_adressr")
 	private String branchAddress;
 
+	public int getCostumerId() {
+		return costumerId;
+	}
+
+	public void setCostumerId(int costumerId) {
+		this.costumerId = costumerId;
+	}
+
+	public long getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(long accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+	public String getBranchAddress() {
+		return branchAddress;
+	}
+
+	public void setBranchAddress(String branchAddress) {
+		this.branchAddress = branchAddress;
+	}
+
+	
 }
