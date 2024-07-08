@@ -16,7 +16,7 @@ import lombok.Setter;
 public class Accounts extends BaseEntity {
 
 	@Column(name = "costumer_id")
-	private int costumerId;
+	private long custumerId;
 	
 	// account number will be created manually. 
 	@Id
@@ -29,12 +29,12 @@ public class Accounts extends BaseEntity {
 	@Column(name = "branch_adressr")
 	private String branchAddress;
 
-	public int getCostumerId() {
-		return costumerId;
+	public long getCustumerId() {
+		return custumerId;
 	}
 
-	public void setCostumerId(int costumerId) {
-		this.costumerId = costumerId;
+	public void setCustumerId(long costumerId) {
+		this.custumerId = costumerId;
 	}
 
 	public long getAccountNumber() {
